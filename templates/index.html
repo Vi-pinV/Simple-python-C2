@@ -1,0 +1,16 @@
+<html>
+    
+    <body>
+        <h1>welcome to my index page</h1>
+        <!--<div class="myDiv">
+        <p class="center large">This paragraph refers to two classes.</p> -->
+        <h2> <a href="{{url_for('home')}}">home</a></h2>
+        <h3> <a href="{{url_for('threads')}}">threads</a></h3>
+        <!--</div>-->
+        {% block content %}
+        <h4>
+            
+        </h4>
+        {% endblock %}
+    </body>
+</html>

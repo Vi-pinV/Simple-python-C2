@@ -1,0 +1,16 @@
+<html>
+    {% block body%}
+    <body>
+        <h1>Execute commands :</h1>
+        <form action="http://127.0.0.1:5000/{{name}}/execute" method="post">
+            <p>Enter command</p>
+            <input type="text" name="command">
+            <input type="submit">          
+
+        </form>
+        <pre>{{cmdoutput}}</pre> 
+        <!--<p>{{Cmd}}</p>-->
+    </body>
+
+    {% endblock %} 
+    </html> 

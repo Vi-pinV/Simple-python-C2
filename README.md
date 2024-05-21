@@ -1,5 +1,5 @@
 # Simple-python-C2
-A python-Flask C2 for show commands
+A python-Flask C2 for windows
 
 ![image](https://github.com/Vi-pinV/Simple-python-C2/assets/164785228/6178741d-7710-40f6-bd12-92c4484cf014)
 
